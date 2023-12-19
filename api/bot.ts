@@ -13,7 +13,7 @@ bot.command('gethook', async (ctx) => {
     const chanId = ctx.message.chat.id
     const hookUrl = `${BOT_URL}/api/hook/${chanId}`
     const links = new InlineKeyboard()
-        .url('Usage', 'https://github.com/WingLim/ddns-telegram-bot/blob/main/README.md')
+        .url('Usage', 'https://github.com/cjs520/ddns-telegram-bot/blob/main/README.md')
     await ctx.reply(`Your Webhook URL:\n ${hookUrl}`, {
         reply_markup: links
     })
