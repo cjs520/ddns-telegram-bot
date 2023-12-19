@@ -2,7 +2,7 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "https://github.com/WingLim/ddns-telegram-bot/blob/main/README.md",
+            "destination": "https://github.com/cjs520/ddns-telegram-bot/blob/main/README.md",
             "permanent": true
         }
     ]
